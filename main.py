@@ -12,7 +12,7 @@ mixer.init()
 pygame.init()
 
 screen = pygame.display.set_mode((constantes.LARGURA_TELA, constantes.ALTURA_TELA))
-pygame.display.set_caption("Dungeon Crawler")
+pygame.display.set_caption("Pixel Escape")
 
 clock = pygame.time.Clock()
 
@@ -399,4 +399,5 @@ while run:
 
   pygame.display.update()
   
+
 pygame.quit()
